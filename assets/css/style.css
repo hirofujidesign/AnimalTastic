@@ -56,4 +56,9 @@ p{
 }
 body{
 	background-image:url("http://p1.pichost.me/i/66/1911707.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#reaction-input{
+	margin-left:10px;
 }
