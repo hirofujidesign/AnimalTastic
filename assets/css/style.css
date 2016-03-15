@@ -1,3 +1,50 @@
 button,div, form, input{
 	marging: 10px;
 }
+h1{
+	text-transform:uppercase;
+	margin-bottom:50px;
+	font-size:60px;
+}
+#reactionsView{
+	float:left;
+	width: 50px;
+	position: fixed;
+	left: 40px;
+	padding-right:70px;
+	padding-top: 20px;
+	padding-left:30px;
+	padding-bottom:10px;
+	background-color:purple;
+
+}
+.reaction{
+	border-radius: 10px;
+	padding: 5px;
+	margin: 2px;
+}
+.reaction:hover{
+	color:yellow;
+	background-color:blue;
+}
+#gifsAppearHere{
+	width:70%;
+	display:block;
+	margin:auto;
+}
+img{
+	clear:both;
+	margin:40px;
+}
+p{
+	display:inline-block;
+	float:left;
+}
+#gifsAppearHere div{
+	width: 50%;
+	margin:0px;
+	float:left;
+}
+#addReaction{
+	margin:10px;
+}
