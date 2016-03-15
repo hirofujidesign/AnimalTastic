@@ -4,7 +4,11 @@ button,div, form, input{
 h1{
 	text-transform:uppercase;
 	margin-bottom:50px;
-	font-size:60px;
+	font-size:50px;
+	color:white;
+}
+h2{
+	color:white;
 }
 #reactionsView{
 	float:left;
@@ -16,6 +20,7 @@ h1{
 	padding-left:30px;
 	padding-bottom:10px;
 	background-color:purple;
+	border-radius: 8px;
 
 }
 .reaction{
@@ -39,6 +44,7 @@ img{
 p{
 	display:inline-block;
 	float:left;
+	color:white;
 }
 #gifsAppearHere div{
 	width: 50%;
@@ -47,4 +53,7 @@ p{
 }
 #addReaction{
 	margin:10px;
+}
+body{
+	background-image:url("http://p1.pichost.me/i/66/1911707.jpg");
 }
